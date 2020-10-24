@@ -1,0 +1,78 @@
+#include <stdio.h>
+#include <math.h>
+
+int max(int *arr,int i,int m,int*k){
+    arr[i]=11;int p=12,t;
+    while(1+p--){
+        if(arr[p]<=m && (p)!=i){
+            t=arr[p]; arr[p]=11;
+            *k=p;
+            return t;
+        }
+    }
+    return 0;
+}
+
+int main(){
+    
+    int arr[12],j,I=13,k=13;
+    for(int i=0;i<12;i++){
+        scanf("%d",&arr[i]);
+    }
+    int MM[2],DD[2],HH[2],mm[2];
+    int f=12;
+    while(1+f--){
+        if(arr[f]<=1){
+                if(arr[f]==1){
+                MM[0]=1;MM[1]=max(arr,f,2,&I);
+                break;}
+                else{
+                MM[0]=arr[f];MM[1]=max(arr,f,9,&I);   
+                }
+        }
+        
+    }
+    if(I==13) { printf("0"); return 0;}
+    
+    I=13;f=12;
+    while(1+f--){
+        if(arr[f]<=3){
+            if(arr[f]==3){
+                DD[0]=3;DD[1]=max(arr,f,1,&I);
+                break;
+            }else{
+                DD[0]=arr[f];DD[1]=max(arr,f,9,&I);
+                break;
+            }
+        }
+    }
+    if(I==13) { printf("0"); return 0;}
+    
+    I=13;f=12;
+    while(1+f--){
+        if(arr[f]<=2){
+            if(arr[f]==2){
+                HH[0]=2;HH[1]=max(arr,f,3,&I);
+                break;
+            }else{
+                HH[0]=arr[f];HH[1]=max(arr,f,9,&I);
+                break;
+            }
+        }
+    }
+    if(I==13) { printf("0"); return 0;}
+    
+    I=13;f=12;
+    while(1+f--){
+        if(arr[f]<=5){
+            mm[0]=arr[f];mm[1]=max(arr,f,9,&I);
+            break;
+            
+        }
+    }
+    if(I==13) { printf("0"); return 0;}
+    
+    if(I!=13)
+    printf("%d%d/%d%d %d%d:%d%d",MM[0],MM[1],DD[0],DD[1],HH[0],HH[1],mm[0],mm[1]);
+    return 0;
+}

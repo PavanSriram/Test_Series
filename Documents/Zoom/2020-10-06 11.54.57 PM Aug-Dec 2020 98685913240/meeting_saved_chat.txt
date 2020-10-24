@@ -1,0 +1,135 @@
+11:02:36	 From  Aditya Sharma : 1970
+11:02:38	 From  CS19B015 Gagan Hegde : 1985
+11:02:43	 From  CS19B017 Pavan Sahith : 1985
+11:02:45	 From  CS19B019 IMMANENI ADITYA : 1970
+11:02:46	 From  CS19B003 AMIT KESARI : 2010
+11:02:46	 From  CS19B011 D P SAHITHI RANI : 1970
+11:02:50	 From  CS19B007 BOBBA RUTHVIK : 2000
+11:02:54	 From  CS19B037 SHREETESH M : 1985
+11:02:54	 From  CS19B043 YAYI SAI SRUJAN : 1970
+11:02:54	 From  CS19B004 B GREESHMITHA : 1970
+11:02:55	 From  CS19B031 P. ANURAAG REDDY : 1970
+11:02:57	 From  CS19B039 SUMAN P : 1970
+11:02:58	 From  CS19B045 Emani Sowmya : 1970
+11:02:59	 From  CS19B002 YASWANTH : 1970
+11:03:01	 From  CS19B032 Vivek Mani Charan : 1970
+11:03:02	 From  Gelle vaibhav cs19b013 : 1985
+11:03:02	 From  CS19B034 RAJENDRA KUMAR : 1970
+11:03:03	 From  CS19B006 BAINDLA GOUTHAM : 2018
+11:03:03	 From  CS19B010 Gowtami : 1970
+11:03:05	 From  CS19B005BadriGautam : 1970
+11:03:06	 From  CS19B036 Kranthi Sedamaki : 1985
+11:03:06	 From  CS19B044 ANAND : 1070
+11:03:06	 From  CS19B035 Saurav : 1970
+11:03:07	 From  CS19B025 AASHRITH : 1985
+11:03:08	 From  CS19B044 ANAND : 1970
+11:03:09	 From  CS19B038 Sagar Singh : 1970
+11:03:10	 From  CS19B046 Githin George : 1970
+11:03:12	 From  CS19B014 KISHOR GADDAM : 1985
+11:03:13	 From  CS19B016 Yashwanth : 1970
+11:03:13	 From  CS19B048 Sapparapu Rithika : 1970
+11:03:13	 From  CS19B012 DEBESHEE DAS : Mix of 2018 and 1970 creativity and developing opinion is important
+11:03:16	 From  CS19B047 Harish Pradyot : 2000
+11:03:21	 From  CS19B008 BUKKE ROOPA SREE : 2000
+11:03:31	 From  CS19B027 Deepika : 2000
+11:03:32	 From  CS19B050 TALHA SHAMIM : 2000
+11:03:34	 From  CS19B018 PAVAN SRIRAM G  to  CS19B014 KISHOR GADDAM(Privately) : Poll vachinda
+11:03:44	 From  CS19B014 KISHOR GADDAM  to  CS19B018 PAVAN SRIRAM G(Privately) : ledu
+11:03:51	 From  CS19B018 PAVAN SRIRAM G  to  CS19B014 KISHOR GADDAM(Privately) : ok
+11:04:59	 From  CS19B003 AMIT KESARI : Static and Dynamic Binding
+11:05:02	 From  CS19B050 TALHA SHAMIM : static and dynamic bindings 
+11:05:07	 From  CS19B004 B GREESHMITHA : static and dynamic binding
+11:05:08	 From  CS19B012 DEBESHEE DAS : static and dynamic binding
+11:05:08	 From  CS19B043 YAYI SAI SRUJAN : Dynamic binding and static binding
+11:05:09	 From  CS19b041 Manjunath Vasam : static dynamic
+11:05:10	 From  CS19B031 P. ANURAAG REDDY : Static and Dynamic bindings
+11:05:10	 From  CS19B036 Kranthi Sedamaki : Binding types: Static and dynamic
+11:05:13	 From  CS19B035 Saurav : dynamic static
+11:05:13	 From  CS19B037 SHREETESH M : Static and dynamic binding. 
+11:05:14	 From  CS19B005BadriGautam : static and dynamic binding
+11:05:15	 From  CS19B039 SUMAN P : static and dynamic
+11:05:17	 From  CS19B047 Harish Pradyot : Static Dynamic
+11:05:18	 From  CS19B027 Deepika : static and dynamic binding
+11:05:20	 From  CS19B011 D P SAHITHI RANI : Static and dynamic
+11:05:20	 From  CS19B044 ANAND : static and dynamic
+11:05:20	 From  CS19B026 MANNEM YETHIN CHANDRA SAI : static and dynamic bindings 
+11:05:21	 From  Aditya Sharma : static binding and dynamic binding
+11:05:22	 From  CS19B025 AASHRITH : static and dynamic
+11:05:23	 From  CS19B045 Emani Sowmya : static and dynamic binding
+11:05:24	 From  CS19B040 VADA VARUN SAI REDDY : static and dynamic binding
+11:05:26	 From  CS19B010 Gowtami : static and dynamic
+11:05:30	 From  CS19B015 Gagan Hegde : There is static and dynamic binding. Static - when you have complete information. Dynamic when something is unknown
+11:05:39	 From  CS19B019 IMMANENI ADITYA : static and dynamic binding
+11:05:39	 From  CS19B002 YASWANTH : static and dynamic
+11:05:43	 From  CS19B012 DEBESHEE DAS : static is used when we know beforehand the exact type of the data
+11:05:50	 From  CS19B020 Ravi Chandra Kancharla : static and dynamic
+11:05:57	 From  CS19B040 VADA VARUN SAI REDDY : static in c and c++
+11:06:02	 From  CS19B012 DEBESHEE DAS : Dynamic is when you do not have complete information about the data before running the program
+11:06:03	 From  CS19B017 Pavan Sahith : static and dynamic static-for known,dynamic-for unknown
+11:06:06	 From  CS19B014 KISHOR GADDAM : static and dynamic binding
+11:06:09	 From  CS19B040 VADA VARUN SAI REDDY : dynamic in java and python
+11:06:16	 From  CS19B037 SHREETESH M : When efficiency is required, static is used. When flexibility is required, dynamic is preferred
+11:06:18	 From  CS19B007 BOBBA RUTHVIK : dynamic: when memory is unknown(Array size in C)
+11:06:20	 From  CS19B045 Emani Sowmya : we use dynamic binding when we don't have a clear information about something.. 
+and static is when we have clear information
+11:06:27	 From  Gelle vaibhav cs19b013 : I prefer static binding
+11:06:28	 From  CS19b041 Manjunath Vasam : static in c and c++ java uses dynamic also python uses dynamic
+11:06:29	 From  CS19B044 ANAND : static - when we know complete data and dynamic- when we want to change data in between
+11:06:34	 From  CS19B019 IMMANENI ADITYA : dynamic binding is used when we don't know about the type od data
+11:06:36	 From  CS19B006 BAINDLA GOUTHAM : static and dynamic
+when you have full info and dynamic is for vague info
+11:06:48	 From  CS19B003 AMIT KESARI : Static is used in C, C++ Java....Dynamic in Python
+11:07:01	 From  CS19B010 Gowtami :  Static - when you have  information. Dynamic is used when we don't have exact information
+11:07:20	 From  CS19B012 DEBESHEE DAS : we generally use static in C and C++ and Java...however we can choose to do dynamic in c with malloc ..especially when we have arrays of unknown size as input
+11:08:01	 From  CS19B036 Kranthi Sedamaki : Static gives us a sense of complete certainty
+11:08:11	 From  CS19B005BadriGautam : static is used when we have information or size about information we have to give but dynamic when it is not
+11:08:13	 From  CS19B039 SUMAN P : when we prefer readability and efficiency we use static 
+11:08:16	 From  CS19b041 Manjunath Vasam : when working with strings of unknow size i use dynamic otherwise static is great
+11:08:18	 From  CS19B003 AMIT KESARI : Static helps in proving programs
+11:08:18	 From  CS19B046 Githin George : static and dynamic binding. static-when u need it to be efficient. dynamic -to get more flexibility(like in python)
+11:08:30	 From  CS19B025 AASHRITH : static is used to detect errors also
+11:08:45	 From  CS19B003 AMIT KESARI : Static helps in proving programs
+11:10:03	 From  Gelle vaibhav cs19b013 : static is useful in c/cpp because easy writability and is more effiecent 
+11:23:39	 From  CS19B003 AMIT KESARI : It can be primitive in the case Names and words are used very often.
+11:23:57	 From  CS19B015 Gagan Hegde : String can interpreted as speech. If input can be taken then it allows for better expression from the user side
+11:24:09	 From  CS19B012 DEBESHEE DAS : Most kinds of data are often taken in as Strings and strings are extensively used, so it makes sense to invest in designing a primitive type - saves programmer time and improves internal efficiency
+11:24:15	 From  CS19B038 Sagar Singh : Since we can already declare a char array we do not need a new primitive string type
+11:24:47	 From  CS19B046 Githin George : a lot of memory cells can go unused if a String data type is used
+11:24:57	 From  CS19B037 SHREETESH M : Many times, we perform operations on strings charater-wise. Hence, we need it in a form of an array, so that it will be convenient to perfrom some operations
+11:25:45	 From  CS19B012 DEBESHEE DAS : If a string is primitively defined, mechanisms can be put in place to automatically prevent space from being wasted
+11:25:45	 From  CS19B011 D P SAHITHI RANI : strings are used very often. so it should be primitive to reduce the number of lines of code
+11:25:51	 From  CS19b041 Manjunath Vasam : larger primitives while hinder the speed
+11:26:08	 From  Aditya Sharma : strings are easy to implement , like sub strings can be easily impelemented
+11:26:26	 From  CS19B022 PAVAN : if we dont no the size of char array instead we can use string to take the input
+11:26:44	 From  CS19B012 DEBESHEE DAS : primitive strings help check programmer errors
+11:26:45	 From  CS19B003 AMIT KESARI : string data type can be initialed with specific size so that no extra space is allocated or stored...and can be resized on the go
+11:27:04	 From  CS19b041 Manjunath Vasam : dynamic binding is already an option to take input so no need of string data type
+11:28:04	 From  Aditya Sharma : dynamic binding in strings will take extra time,  whereas string as a primitive won't take 
+11:28:11	 From  CS19B015 Gagan Hegde : Which point are we arguing on?
+11:28:39	 From  CS19B036 Kranthi Sedamaki : It can be primitive data type because then we will have an option to make the string immutable
+11:32:18	 From  CS19B025 AASHRITH : the "+" operation is overloaded
+11:33:29	 From  CS19b041 Manjunath Vasam : Can we overload operators for primitives?
+11:35:24	 From  CS19B018 PAVAN SRIRAM G  to  CS19B014 KISHOR GADDAM(Privately) : Madhyalo cut avuthonda sir voice?
+11:36:05	 From  CS19B014 KISHOR GADDAM  to  CS19B018 PAVAN SRIRAM G(Privately) : ledu, kani konacham gap istundu kavachu sir appudapudu
+11:36:28	 From  CS19B018 PAVAN SRIRAM G  to  CS19B014 KISHOR GADDAM(Privately) : ok
+11:38:12	 From  CS19b041 Manjunath Vasam : '\0'
+11:44:33	 From  CS19B015 Gagan Hegde : Hello
+11:44:41	 From  CS19B046 Githin George : hello
+11:45:09	 From  CS19B015 Gagan Hegde : Matrix is already like the primitive data type in graphic processing
+11:45:10	 From  CS19B047 Harish Pradyot : Hi will this be visible to everyone or just us??
+11:45:12	 From  CS19B046 Githin George : some one say something
+11:45:16	 From  CS19B046 Githin George : just us da
+11:46:06	 From  Gelle vaibhav cs19b013 : hi
+11:53:08	 From  CS19B018 PAVAN SRIRAM G : disadvantage to have matrix as a primitive data type because handling is difficult and heavy work for the compiler.
+11:53:21	 From  CS19B015 Gagan Hegde : Depend on the domain
+11:53:45	 From  Gelle vaibhav cs19b013 : it depends on what type of programs we write 
+11:53:53	 From  CS19B039 SUMAN P : In case of primitive datatype parsing through it will be difficult.  
+11:54:08	 From  CS19B036 Kranthi Sedamaki : It depends on the domain. In case the domain is something like simulations and 3d rendering or machine learning, it is necessary that we have matrices as primitive datatypeIn cases where it's not too frequently used, we will not make it a primitive datatype and give the user the option to implement it if they need it. Not implementing it where it's required makes writability harder
+11:54:10	 From  CS19b041 Manjunath Vasam : if the use is not extensive no need for it to be primitive. We can always use structs and classes. Else the only option left is to implement it efficiently and modify the hardware maybe.
+11:54:13	 From  CS19B038 Sagar Singh : 1) It depends on what we are going to use it for2) Suppose it can be extensively used for Mathematics and Scientific uses. Also in data bases.
+11:54:14	 From  CS19B003 AMIT KESARI : Matrix should not be a primitive data type because its not efficient ,we can always build a matrix and define our own operators using structs or classesOn the other hand It can be a primitive data type for a language involving a lot of operations on matrix and desiging something that goes along with the hardware operations .
+11:54:14	 From  CS19B012 DEBESHEE DAS : On behalf of group Group 8- We have concluded that: If the language is used in a domain where matrices are widely used to manipulate data, like scientific uses, mathematical modelling, then it is very useful to have matrices as all linear operations can also be expressed using matrices. howver in other domains there is not need to have matrices because we can just use 2D array
+11:54:42	 From  CS19B045 Emani Sowmya : we feel that primitive data type is better. 
+it is easily readable and lines of code decreases and we can overload the operators. and directly use operations on the matrix data type
+11:54:49	 From  CS19B044 ANAND : If we have primitive then we have to write less codes and also we can implement its efficiently
+11:54:50	 From  CS19B025 AASHRITH : matrices will do much better if they are not primitive in mathematical field but for a normal user it would better be a primitive as it has more efficiency : team 6

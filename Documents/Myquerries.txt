@@ -1,0 +1,4 @@
+1. for a class implementing a interface should have methods of type public only?
+ All the interface methods are by default abstract and public.
+Variables declared in interface are public, static and final by default.
+Interface variables must be initialized at the time of declaration otherwise compiler will throw an error.

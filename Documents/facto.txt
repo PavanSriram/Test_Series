@@ -1,0 +1,47 @@
+#include <bits/stdc++.h>
+#include <vector>
+using namespace std;
+
+void extraLongFactorials(int n) {
+    int t,p=1,m,c=1,carry=0,h=2;
+    vector <int> a(1);
+    a[0]=1;
+    
+    vector<int>::iterator ptr; 
+    vector<int>::iterator pt; 
+    
+    for(int i=1;i<=n;i++){
+        int l=0;p=1;carry=0;
+        
+        ptr=a.begin();
+        pt=a.end();
+        
+        while(p || ptr!=a.end()){
+            if(carry!=0 && ptr==a.end()) a.resize(h++);
+            t=a[l]*i+carry;
+            a[l]=t%10;       cout<<a[l]<<" ";
+            carry=t/10;      
+            if(carry==0) p=0;
+            else p=1;
+            l++;ptr++;cout<<*ptr<<"k";
+            if(i==5) return;
+        }
+        
+    }
+    
+    m=a.size();
+    for(int k=0;k<m;k++){
+           cout << a[k]; 
+        }
+}
+
+int main()
+{
+    int n;
+    cin >> n;
+    cin.ignore(numeric_limits<streamsize>::max(), '\n');
+
+    extraLongFactorials(n);
+
+    return 0;
+}
