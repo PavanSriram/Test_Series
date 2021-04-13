@@ -1,4 +1,5 @@
 import './Footer.css'
+import "./bootstrap.css"
 
 const Footer = () => {
     return (

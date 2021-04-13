@@ -1,7 +1,9 @@
+import "./Question.css"
+import "./bootstrap.css"
 
 const Question = () => {
     return (
-        <div>
+        <div >
             <p>What is the distance between Earth and Moon ?</p>
             <input type="radio" id="A"></input>
             <label htmlFor="A">Option A</label>

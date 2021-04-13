@@ -1,4 +1,5 @@
 import './Header.css'
+import "./bootstrap.css"
 
 const Header = () => {
     return (
