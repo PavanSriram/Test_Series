@@ -1,0 +1,13 @@
+.header {
+    height: 70px;
+    width: wrap;
+    border: 1px solid black;
+}
+
+#test-name {
+    float: left;
+}
+
+#time-left {
+    float: right;
+}
