@@ -1,3 +1,31 @@
-div {
-    height: 100px;
+.footer{
+    position: absolute;
+    bottom: 0px;
+    padding: 5px;
+    width: 100%;
+}
+
+
+#btn1{
+    width: 10%;
+    background-color: blue;
+}
+#btn2{
+    width: 5%;
+    background-color: blue;
+    margin-right: 45%;
+}
+#btn3{
+    width: 8%;
+    background-color: blue;
+}
+#btn4{
+    width: 5%;
+    background-color: blue;
+    margin-right: 19%;
+}
+#btn5{
+    width: 5%;
+    background-color: green;
+    margin-right: 0%;
 }
