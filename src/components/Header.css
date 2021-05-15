@@ -1,7 +1,5 @@
 .header {
-    height: 70px;
     width: wrap;
-    border: 1px solid black;
 }
 
 #test-name {
@@ -9,5 +7,7 @@
 }
 
 #time-left {
+    margin-right: 10px;
     float: right;
 }
+

@@ -6,10 +6,10 @@ import Qwindow from './components/Qwindow';
 
 function App() {
   return (
-    <div>
-      <Header />
-      <Qwindow />
-      <Footer />
+    <div className="test">
+      <div> <Header /> </div>
+      <div> <Qwindow /> </div>
+      <div> <Footer /> </div>
     </div>
   );
 }
