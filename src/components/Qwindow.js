@@ -2,11 +2,11 @@ import Question from "./Question"
 import "./Qwindow.css"
 import "./bootstrap.css"
 import Qpallet from "./Qpallet"
+import "./Qwindow.css"
 
 const Qwindow = () => {
-    return (
-        
-        <div>
+    return (   
+        <div class = "container-fluid">
             <div className="row">
                 <div className="col-md-9 qwindow">
                     <Question />

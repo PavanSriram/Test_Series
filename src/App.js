@@ -1,15 +1,15 @@
-import './App.css';
+import "./App.css";
 
-import Footer from './components/Footer';
-import Header from './components/Header'
-import Qwindow from './components/Qwindow';
+import Footer from "./components/Footer";
+import Header from "./components/Header";
+import Qwindow from "./components/Qwindow";
 
 function App() {
   return (
-    <div className="test">
-      <div> <Header /> </div>
-      <div> <Qwindow /> </div>
-      <div> <Footer /> </div>
+    <div className="container-fluid test">
+      <div className="row"> <Header /> </div>
+      <div className="row"> <Qwindow /> </div>
+      <div className="row"> <Footer /> </div>
     </div>
   );
 }

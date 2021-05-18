@@ -1,31 +1,31 @@
-.footer{
-    position: absolute;
-    bottom: 0px;
-    padding: 5px;
-    width: 100%;
+.footer {
+  /* position: absolute; */
+  height: 8vh;
+  bottom: 0%;
+  padding: 5px;
+  width: 100%;
 }
 
-
-#btn1{
-    width: 10%;
-    background-color: blue;
+#btn1 {
+  display: inline-block;
+  background-color: blue;
 }
-#btn2{
-    width: 5%;
-    background-color: blue;
-    margin-right: 45%;
+#btn2 {
+  display: inline-block;
+  background-color: blue;
+  margin-right: 51%;
 }
-#btn3{
-    width: 8%;
-    background-color: blue;
+#btn3 {
+  display: inline-block;
+  background-color: blue;
 }
-#btn4{
-    width: 5%;
-    background-color: blue;
-    margin-right: 19%;
+#btn4 {
+  display: inline-block;
+  background-color: blue;
+  margin-right: 19%;
 }
-#btn5{
-    width: 5%;
-    background-color: green;
-    margin-right: 0%;
+#btn5 {
+  display: inline-block;
+  background-color: green;
+  margin-right: 0%;
 }
