@@ -1,0 +1,9 @@
+.question {
+    font-size: 150%;
+}
+.question input {
+    margin-left: 5px;
+    margin-right: 10px;
+    width: 16px;
+    height: 16px;
+}
