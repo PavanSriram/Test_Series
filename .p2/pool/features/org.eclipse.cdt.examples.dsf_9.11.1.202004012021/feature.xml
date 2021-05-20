@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feature
+      id="org.eclipse.cdt.examples.dsf"
+      label="%featureName"
+      version="9.11.1.202004012021"
+      provider-name="%providerName"
+      plugin="org.eclipse.cdt.examples.dsf">
+
+   <description>
+      %description
+   </description>
+
+   <copyright>
+      %copyright
+   </copyright>
+
+   <license url="%licenseURL">
+      %license
+   </license>
+
+   <plugin
+         id="org.eclipse.cdt.examples.dsf"
+         download-size="121"
+         install-size="236"
+         version="2.2.300.202002041243"
+         unpack="false"/>
+
+   <plugin
+         id="org.eclipse.cdt.examples.dsf.pda"
+         download-size="261"
+         install-size="591"
+         version="2.1.400.202003021747"
+         unpack="false"/>
+
+   <plugin
+         id="org.eclipse.cdt.examples.dsf.pda.ui"
+         download-size="62"
+         install-size="119"
+         version="2.1.200.201910171407"
+         unpack="false"/>
+
+</feature>

@@ -1,1 +1,0 @@
-We cannot access adress of varibles etc in java.
