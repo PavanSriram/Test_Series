@@ -29,10 +29,7 @@
 
 .btn{
     margin: 5px;
-}
-
-.btn-secondary{
-    background-color: grey;
+    /* background-color: yellow; */
 }
 
 .violet{

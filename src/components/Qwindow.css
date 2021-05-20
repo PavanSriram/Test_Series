@@ -2,4 +2,6 @@
     /* padding-left: 30px; */
     height: 77vh;
     border: 1px solid grey;
+    /* overflow-y: auto;
+    overflow-x: auto; */
 }
