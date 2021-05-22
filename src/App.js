@@ -32,6 +32,7 @@ class App extends Component {
         this.state.questions[j][i].markedForReview = false;
         this.state.questions[j][i].isVisited = false;
         this.state.questions[j][i].color = "lightgrey";
+        this.state.questions[j][i].border = "";
       }
     }
   }
