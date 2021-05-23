@@ -9,11 +9,11 @@
     overflow-y: scroll;
 }
 
-.textbox{
+/* .textbox{
     border: 1px solid grey;
     padding: 3px;
     border-radius: 5px;
-}
+} */
 
 .btn-inst :nth-child(2){
     background-color: violet;
