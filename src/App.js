@@ -35,34 +35,43 @@ class App extends Component {
         this.state.questions[j][i].border = "";
       }
     }
+    this.state.questions[this.state.currentSection][this.state.currentQuestionId].border = "solid";
   }
 
   handleNext = () => {    
 
     const questions = this.state.questions;
     questions[this.state.currentSection][this.state.currentQuestionId].isVisited = true;
-    questions[this.state.currentSection][this.state.currentQuestionId].color = 'red';
+    if(questions[this.state.currentSection][this.state.currentQuestionId].color === 'lightgrey'){
+      questions[this.state.currentSection][this.state.currentQuestionId].color = 'red';
+    }
+    questions[this.state.currentSection][this.state.currentQuestionId].border = "";
     if(questions[this.state.currentSection][this.state.currentQuestionId].optionChosen.indexOf(true) !== -1){
       questions[this.state.currentSection][this.state.currentQuestionId].isAttempted = true;
       questions[this.state.currentSection][this.state.currentQuestionId].color = 'green';
     }
-    this.setState({ questions });
+    // this.setState({ questions });
 
     if (this.state.currentQuestionId !== 49) {
-      this.setState({ currentQuestionId: this.state.currentQuestionId + 1 });
+      questions[this.state.currentSection][this.state.currentQuestionId+1].border = "solid";
+      this.setState({ currentQuestionId: this.state.currentQuestionId + 1, questions : questions});
     } else {
       if (this.state.currentSection === 0) {
+        questions[this.state.currentSection+1][0].border = "solid";
         this.setState({
           classNames: ["", " active", ""],
           currentQuestionId: 0,
           currentSection: this.state.currentSection + 1,
+          questions : questions
         });
       }
       if (this.state.currentSection === 1) {
+        questions[this.state.currentSection+1][0].border = "solid";
         this.setState({
           classNames: ["", "", " active"],
           currentQuestionId: 0,
           currentSection: this.state.currentSection + 1,
+          questions: questions
         });
       }
     }
@@ -72,53 +81,73 @@ class App extends Component {
 
     const questions = this.state.questions;
     questions[this.state.currentSection][this.state.currentQuestionId].isVisited = true;
+    questions[this.state.currentSection][this.state.currentQuestionId].border = "";
     if(questions[this.state.currentSection][this.state.currentQuestionId].isAttempted !== true && questions[this.state.currentSection][this.state.currentQuestionId].color === 'lightgrey'){
       questions[this.state.currentSection][this.state.currentQuestionId].color = 'red';
       questions[this.state.currentSection][this.state.currentQuestionId].optionChosen = [false, false, false, false];
     }
-    this.setState({ questions });
+    // this.setState({ questions });
 
     if (this.state.currentQuestionId !== 0) {
-      this.setState({ currentQuestionId: this.state.currentQuestionId - 1 });
+      questions[this.state.currentSection][this.state.currentQuestionId-1].border = "solid";
+      this.setState({ currentQuestionId: this.state.currentQuestionId - 1, questions: questions });
     } else {
       if (this.state.currentSection === 1) {
+        questions[this.state.currentSection-1][49].border = "solid";
         this.setState({
           classNames: [" active", "", ""],
           currentQuestionId: 49,
           currentSection: this.state.currentSection - 1,
+          questions: questions
         });
       }
       if (this.state.currentSection === 2) {
+        questions[this.state.currentSection-1][49].border = "solid";
         this.setState({
           classNames: ["", " active", ""],
           currentQuestionId: 49,
           currentSection: this.state.currentSection - 1,
+          questions: questions
         });
       }
     }
   };
 
   handleSection = (tabNumber) => {
+    const questions = this.state.questions;
+    questions[this.state.currentSection][this.state.currentQuestionId].isVisited = true;
+    questions[this.state.currentSection][this.state.currentQuestionId].border = "";
+    if(questions[this.state.currentSection][this.state.currentQuestionId].isAttempted !== true && questions[this.state.currentSection][this.state.currentQuestionId].color === 'lightgrey'){
+      questions[this.state.currentSection][this.state.currentQuestionId].color = 'red';
+      questions[this.state.currentSection][this.state.currentQuestionId].optionChosen = [false, false, false, false];
+    }
+
     if (this.props.currentSection !== tabNumber) {
       if (tabNumber === 0) {
+        questions[0][0].border = "solid";
         this.setState({
           classNames: [" active", "", ""],
           currentQuestionId: 0,
           currentSection: tabNumber,
+          questions: questions
         });
       }
       if (tabNumber === 1) {
+        questions[1][0].border = "solid";
         this.setState({
           classNames: ["", " active", ""],
           currentQuestionId: 0,
           currentSection: tabNumber,
+          questions: questions
         });
       }
       if (tabNumber === 2) {
+        questions[2][0].border = "solid";
         this.setState({
           classNames: ["", "", " active"],
           currentQuestionId: 0,
           currentSection: tabNumber,
+          questions: questions
         });
       }
     }
@@ -142,27 +171,33 @@ class App extends Component {
     const questions = this.state.questions;
     questions[this.state.currentSection][this.state.currentQuestionId].isVisited = true;
     questions[this.state.currentSection][this.state.currentQuestionId].markedForReview = true;
+    questions[this.state.currentSection][this.state.currentQuestionId].border = "";
     questions[this.state.currentSection][this.state.currentQuestionId].color = 'rgb(243, 12, 224)';
     if(questions[this.state.currentSection][this.state.currentQuestionId].optionChosen.indexOf(true) !== -1){
       questions[this.state.currentSection][this.state.currentQuestionId].isAttempted = true;
     }
-    this.setState({ questions });
+    // this.setState({ questions });
 
     if (this.state.currentQuestionId !== 49) {
-      this.setState({ currentQuestionId: this.state.currentQuestionId + 1 });
+      questions[this.state.currentSection][this.state.currentQuestionId+1].border = "solid";
+      this.setState({ currentQuestionId: this.state.currentQuestionId + 1, questions: questions });
     } else {
       if (this.state.currentSection === 0) {
+        questions[this.state.currentSection+1][0].border = "solid";
         this.setState({
           classNames: ["", " active", ""],
           currentQuestionId: 0,
           currentSection: this.state.currentSection + 1,
+          questions: questions
         });
       }
       if (this.state.currentSection === 1) {
+        questions[this.state.currentSection+1][0].border = "solid";
         this.setState({
           classNames: ["", "", " active"],
           currentQuestionId: 0,
           currentSection: this.state.currentSection + 1,
+          questions: questions
         });
       }
     }
@@ -171,18 +206,25 @@ class App extends Component {
   handleGoTo = (id) => {
     const questions = this.state.questions;
     questions[this.state.currentSection][this.state.currentQuestionId].isVisited = true;
+    questions[this.state.currentSection][this.state.currentQuestionId].border = "";
     if(questions[this.state.currentSection][this.state.currentQuestionId].isAttempted !== true && questions[this.state.currentSection][this.state.currentQuestionId].color === 'lightgrey'){
       questions[this.state.currentSection][this.state.currentQuestionId].color = 'red';
     }
     if(questions[this.state.currentSection][this.state.currentQuestionId].isAttempted !== true)
       questions[this.state.currentSection][this.state.currentQuestionId].optionChosen = [false, false, false, false];
 
-    if(id > 99)
+    if(id > 99){
+      questions[this.state.currentSection][id-100].border = "solid";
       this.setState({ questions: questions, currentQuestionId: id-100});
-    else if(id > 49)
+    }
+    else if(id > 49){
+      questions[this.state.currentSection][id-50].border = "solid";
       this.setState({ questions: questions, currentQuestionId: id-50});
-    else
-    this.setState({ questions: questions, currentQuestionId: id});
+    }
+    else{
+      questions[this.state.currentSection][id].border = "solid";
+      this.setState({ questions: questions, currentQuestionId: id});
+    }
   }
 
   render() {

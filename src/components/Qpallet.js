@@ -22,7 +22,7 @@ class Qpallet extends Component {
                 this.props.questions[this.props.currentSection].map((que) => (
                 <button
                     onClick={() => {this.props.goTo(que.id)}}
-                    style={{backgroundColor:que.color, width: 45}}
+                    style={{backgroundColor:que.color, width: 45, border:que.border}}
                     className="btn">
                     {que.id+1}
                 </button>
