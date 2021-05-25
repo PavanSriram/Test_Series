@@ -50,7 +50,7 @@ class App extends Component {
       questions[this.state.currentSection][this.state.currentQuestionId].isAttempted = true;
       questions[this.state.currentSection][this.state.currentQuestionId].color = 'green';
     }
-    // this.setState({ questions });
+    this.setState({ questions });
 
     if (this.state.currentQuestionId !== 49) {
       questions[this.state.currentSection][this.state.currentQuestionId+1].border = "solid";
@@ -86,7 +86,7 @@ class App extends Component {
       questions[this.state.currentSection][this.state.currentQuestionId].color = 'red';
       questions[this.state.currentSection][this.state.currentQuestionId].optionChosen = [false, false, false, false];
     }
-    // this.setState({ questions });
+    this.setState({ questions });
 
     if (this.state.currentQuestionId !== 0) {
       questions[this.state.currentSection][this.state.currentQuestionId-1].border = "solid";
@@ -176,7 +176,7 @@ class App extends Component {
     if(questions[this.state.currentSection][this.state.currentQuestionId].optionChosen.indexOf(true) !== -1){
       questions[this.state.currentSection][this.state.currentQuestionId].isAttempted = true;
     }
-    // this.setState({ questions });
+    this.setState({ questions });
 
     if (this.state.currentQuestionId !== 49) {
       questions[this.state.currentSection][this.state.currentQuestionId+1].border = "solid";
