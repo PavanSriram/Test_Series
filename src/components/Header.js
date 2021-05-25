@@ -6,13 +6,15 @@ class Header extends Component {
     render() { 
         return ( 
             <div className='header'>
-            <div>
+            <div >
                 <h3 id='test-name' >Type of Test</h3>
                 <p id='time-left'>Time Left</p>
 
                 <br></br>
                 <br></br>
                 <br></br>
+            </div>
+            <div>
                 <ul className="nav nav-tabs">
                     <li className="nav-item">
                         <a onClick={() => {this.props.handleSection(0)}} className={"nav-link"+this.props.classNames[0]} aria-current="page" href="#">Maths</a>
