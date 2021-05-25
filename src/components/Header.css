@@ -1,5 +1,9 @@
 .header {
+<<<<<<< HEAD
+    width: wrap;
+=======
     width: 100%;
+>>>>>>> c6e7785128d95e2ad92db5fb62908b459cd85ff4
     height: 15vh;
 }
 
