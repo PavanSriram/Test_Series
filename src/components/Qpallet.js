@@ -3,6 +3,7 @@ import "./Qpallet.css"
 
 class Qpallet extends Component {
     render() { 
+    
         return ( 
             <div>
             <div className="btn-inst">
