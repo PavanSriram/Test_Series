@@ -8,13 +8,13 @@ class Qpallet extends Component {
             <div>
             <div className="btn-inst">
                 <p>Instructions</p>
-                <span style={{textAlign: "center", minInlineSize: 30,fontSize: 15}} id="violet" className="badge badge-primary">{this.props.questions[this.props.currentSection].filter(que => que.markedForReview === true).length}</span>
+                <span style={{textAlign: "center", minInlineSize: 40, fontSize: 15}} id="violet" className="badge badge-primary">{this.props.questions[this.props.currentSection].filter(que => que.markedForReview === true).length}</span>
                 <label htmlFor="violet">- Marked for Review</label>
                 <br></br>
-                <span style={{textAlign: "center", minInlineSize: 30,fontSize: 15}} id="red" className="badge badge-primary">{this.props.questions[this.props.currentSection].filter(que => que.color === "red").length}</span>
+                <span style={{textAlign: "center", minInlineSize: 40, fontSize: 15}} id="red" className="badge badge-primary">{this.props.questions[this.props.currentSection].filter(que => que.color === "red").length}</span>
                 <label htmlFor="red">- Skipped</label>
                 <br></br>
-                <span style={{textAlign: "center", minInlineSize: 30,fontSize: 15}} id="green" className="badge badge-primary">{this.props.questions[this.props.currentSection].filter(que => que.isAttempted === true).length}</span>
+                <span style={{textAlign: "center", minInlineSize: 40, fontSize: 15}} id="green" className="badge badge-primary">{this.props.questions[this.props.currentSection].filter(que => que.isAttempted === true).length}</span>
                 <label htmlFor="green">- Attempted</label>
                 <hr></hr>
             </div>

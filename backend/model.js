@@ -1,14 +1,17 @@
-const mongoose = require("mongoose");
+const mongoose = require('mongoose');
 
 const Schema = mongoose.Schema;
 
-let detail = new Schema({
-  Question: {
-    type: String
-  },
-  Options: {
-    type: Array
-  }
+const questionSchema = Schema({
+    questions: {
+        type: Array,
+        required: true
+    },
+    subject: {
+      type: String
+    }
 });
 
-module.exports = mongoose.model("detail", detail);
+const Tests = mongoose.model('Tests', questionSchema);
+
+module.exports = Tests;

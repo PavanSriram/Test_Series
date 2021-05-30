@@ -1,3 +1,4 @@
+import axios from "axios";
 import React, { Component } from "react";
 import "./App.css";
 import Footer from "./components/Footer";
@@ -16,7 +17,9 @@ class App extends Component {
     currentQuestionId: 0,
     currentSection: 0,
     classNames: [" active", "", ""],
+    question: "null"
   };
+
   constructor() {
     super();
     let k = 0;
@@ -36,6 +39,24 @@ class App extends Component {
       }
     }
     this.state.questions[this.state.currentSection][this.state.currentQuestionId].border = "solid";
+    
+  }
+
+  componentDidMount = () => {
+    axios.get('http://localhost:5000/questions')
+      .then(response => {
+        if(response.data.length > 0){
+          const questions = this.state.questions;
+          for (let j = 0; j < 3; j++) {
+            for (let i = 0; i < 50; i++) {
+              questions[j][i].text = response.data[j].questions[i].text;
+              questions[j][i].options = response.data[j].questions[i].options;
+              questions[j][i].answer = response.data[j].questions[i].answer;
+            }
+          }
+          this.setState({ questions });
+        }
+      })
   }
 
   handleNext = () => {    

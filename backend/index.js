@@ -1,37 +1,23 @@
-let detail = require("./model");
-
 const express = require("express");
-const app = express();
 const cors = require("cors");
-const PORT = 4000;
 const mongoose = require("mongoose");
-const router = express.Router();
+require('dotenv').config();
 
+const PORT = 5000;
+const app = express(); 
+
+app.use(express.json());
 app.use(cors());
 
-mongoose.connect("mongodb://127.0.0.1:27017/details", {
-  useNewUrlParser: true
-});
+const uri = process.env.ATLAS_URI;
+mongoose.connect(uri, {useNewUrlParser: true, useCreateIndex: true});
 const connection = mongoose.connection;
+connection.once('open', () => {console.log("MongoDB database connection established successfully")});
 
-connection.once("open", function() {
-  console.log("Connection with MongDB was successful");
-});
-
-
-app.use("/", router);
+const exercisesRouter = require("./routes/questions");
+app.use('/questions', exercisesRouter);
 
 app.listen(PORT, function() {
   console.log("Server is running on Port: " + PORT);
 });
 
-
-router.route("/getData").get(function(req, res) {
-  detail.find({}, function(err, result) {
-    if (err) {
-      res.send(err);
-    } else {
-      res.send(result);
-    }
-  });
-});
