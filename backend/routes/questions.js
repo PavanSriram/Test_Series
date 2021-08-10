@@ -11,17 +11,17 @@ router.get('/', async (req, res) => {
     }
 });
 
-// router.post('/', async (req, res) => {
-//     const ques = new Questions({
-//         question: req.body.question
-//     })
-//     try{
-//         const a1 = await ques.save();
-//         res.json(a1);
-//     }
-//     catch(err){
-//         err => res.status(400).json('Error: ' + err);
-//     }
-// });
+router.post('/', async (req, res) => {
+    const ques = new Questions({
+        question: req.body.question
+    })
+    try{
+        const a1 = await ques.save();
+        res.json(a1);
+    }
+    catch(err){
+        err => res.status(400).json('Error: ' + err);
+    }
+});
 
 module.exports = router;

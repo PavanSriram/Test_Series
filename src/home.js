@@ -4,7 +4,7 @@ import { Link } from "react-router-dom";
 class App extends Component {
   state = {
     tabs: ["active", ""],
-    signInOrUP: ["", ""],
+    signInOrUP: ["", ""],   // to disable firstName and lastName in the sign in section
     btn: ["", "none"],
     validity: {
       firstName: "",
@@ -16,10 +16,16 @@ class App extends Component {
     lastName: "",
     email: "",
     password: "",
-    to: "/options"
+    to: "/options",
   };
 
-  handleTab = (tab) => {
+  handleTab = (tab) => {    // for signIn and signUp tabs
+    const validity = {
+      firstName: "",
+      lastName: "",
+      email: "",
+      password: "",
+    };
     if (tab === 0) {
       this.setState({
         tabs: ["active", ""],
@@ -28,7 +34,8 @@ class App extends Component {
         firstName: "",
         lastName: "",
         email: "",
-        password: ""
+        password: "",
+        validity: validity
       });
     } else {
       this.setState({
@@ -38,7 +45,8 @@ class App extends Component {
         firstName: "",
         lastName: "",
         email: "",
-        password: ""
+        password: "",
+        validity: validity
       });
     }
   };
@@ -76,7 +84,15 @@ class App extends Component {
   };
 
   handleSubmit = (e) => {
-    if((this.state.tabs[0] == "active" && (!this.validateEmail(this.state.email) || this.state.firstName == "" || this.state.lastName == "" || this.state.password == "")) || (this.state.tabs[1] == "active" && (!this.validateEmail(this.state.email) || this.state.password == "")))
+    if (
+      (this.state.tabs[0] == "active" &&
+        (!this.validateEmail(this.state.email) ||
+          this.state.firstName == "" ||
+          this.state.lastName == "" ||
+          this.state.password == "")) ||
+      (this.state.tabs[1] == "active" &&
+        (!this.validateEmail(this.state.email) || this.state.password == ""))
+    )
       e.preventDefault();
     const validity = this.state.validity;
 
