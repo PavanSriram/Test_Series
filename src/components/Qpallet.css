@@ -1,0 +1,45 @@
+.qpallet{
+    height: 77vh;
+    border: 1px solid grey;
+}
+
+.btn-num{
+    /* margin: 10px; */
+    height: 50vh;
+    overflow-y: scroll;
+}
+
+/* .textbox{
+    border: 1px solid grey;
+    padding: 3px;
+    border-radius: 5px;
+} */
+
+.btn-inst :nth-child(2){
+    background-color: violet;
+}
+
+.btn-inst :nth-child(5){
+    background-color: red;
+}
+
+.btn-inst :nth-child(8){
+    background-color: green;
+}
+
+.btn{
+    margin: 5px;
+    /* background-color: yellow; */
+}
+
+.violet{
+    background-color: rgb(243, 12, 224);
+}
+
+.red{
+    background-color: red;
+}
+
+.green{
+    background-color: green;
+}
