@@ -1,7 +1,7 @@
 import React, { Component } from "react";
 import { Link } from "react-router-dom";
 
-class App extends Component {
+class Home extends Component {
   state = {
     tabs: ["active", ""],
     signInOrUP: ["", ""],   // to disable firstName and lastName in the sign in section
@@ -85,13 +85,8 @@ class App extends Component {
 
   handleSubmit = (e) => {
     if (
-      (this.state.tabs[0] == "active" &&
-        (!this.validateEmail(this.state.email) ||
-          this.state.firstName == "" ||
-          this.state.lastName == "" ||
-          this.state.password == "")) ||
-      (this.state.tabs[1] == "active" &&
-        (!this.validateEmail(this.state.email) || this.state.password == ""))
+      (this.state.tabs[0] == "active" && (!this.validateEmail(this.state.email) || this.state.firstName == "" || this.state.lastName == "" || this.state.password == "")) || 
+        (this.state.tabs[1] == "active" && (!this.validateEmail(this.state.email) || this.state.password == ""))
     )
       e.preventDefault();
     const validity = this.state.validity;
@@ -321,4 +316,4 @@ class App extends Component {
   }
 }
 
-export default App;
+export default Home;

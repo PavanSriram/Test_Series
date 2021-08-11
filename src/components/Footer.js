@@ -27,7 +27,7 @@ class Footer extends Component {
           Save & Next
         </button>
 
-        <button type="button" className="btn btn-secondary" id="btn5" disabled>Finish</button>
+        <button onClick={this.props.onFinish} type="button" className="btn btn-secondary" id="btn5" disabled>Finish</button>
       </div>
     );
   }

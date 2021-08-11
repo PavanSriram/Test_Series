@@ -1,5 +1,5 @@
 const express = require("express");
-const cors = require("cors");
+const cors = require("cors");     // It allows you to make requests from one website to another website in the browser
 const mongoose = require("mongoose");
 require("dotenv").config();
 

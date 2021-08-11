@@ -1,3 +1,4 @@
+import { computeHeadingLevel } from "@testing-library/react";
 import axios from "axios";
 import React, { Component } from "react";
 import "./App.css";
@@ -17,10 +18,10 @@ class ExamWindow extends Component {
     currentQuestionId: 0,
     currentSection: 0,
     classNames: [" active", "", ""],
-    question: "null"
+    question: "null",
   };
 
-  constructor() {
+  constructor(props) {
     super();
     let k = 0;
     let i = 0;
@@ -29,7 +30,7 @@ class ExamWindow extends Component {
         this.state.questions[j][i] = new question(k++);
         this.state.questions[j][i].text = "what is ...?" + k;
         this.state.questions[j][i].options = ["A", "B", "C", "D"];
-        this.state.questions[j][i].answer = null;
+        this.state.questions[j][i].answer = [false, true, false, false];
         this.state.questions[j][i].isAttempted = false;
         this.state.questions[j][i].optionChosen = [false, false, false, false];
         this.state.questions[j][i].markedForReview = false;
@@ -39,7 +40,6 @@ class ExamWindow extends Component {
       }
     }
     this.state.questions[this.state.currentSection][this.state.currentQuestionId].border = "solid";
-    
   }
 
   componentDidMount = () => {
@@ -60,7 +60,6 @@ class ExamWindow extends Component {
   }
 
   handleNext = () => {    
-
     const questions = this.state.questions;
     questions[this.state.currentSection][this.state.currentQuestionId].isVisited = true;
     if(questions[this.state.currentSection][this.state.currentQuestionId].color === 'lightgrey'){
@@ -258,6 +257,7 @@ class ExamWindow extends Component {
             currentSection={this.state.currentSection}
             classNames={this.state.classNames}
             handleSection={this.handleSection}
+            clock={this.state.clock}
           />
         </div>
         <div className="row">
@@ -278,6 +278,7 @@ class ExamWindow extends Component {
             onPrevious={this.handlePrevious}
             onClear={this.handleClear}
             onMfR={this.handleMfR}
+            onFinish={this.handleFinish}
           />
         </div>
       </div>

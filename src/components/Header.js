@@ -8,7 +8,7 @@ class Header extends Component {
             <div className='header'>
             <div>
                 <h3 id='test-name' >Type of Test</h3>
-                <span id='time-left'>Time Left</span>
+                <span id='time-left'>Time Left : {this.props.clock}</span>
 
                 <br></br>
                 <br></br>
