@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
 import "./Qpallet.css"
+import "./bootstrap.css"
 
 class Qpallet extends Component {
     render() { 

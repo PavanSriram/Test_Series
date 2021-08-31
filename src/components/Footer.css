@@ -6,6 +6,11 @@
   width: 100%;
 }
 
+/* .disabled {
+  cursor: not-allowed;
+  opacity: 0.5;
+} */
+
 #btn1 {
   display: inline-block;
   background-color: blue;

@@ -4,13 +4,13 @@ class result extends Component{
     render(){
         return (
             <div>
-                Maths: {this.props.maths}
+                Maths: {this.props.state.maths}
                 <hr></hr>
-                Physics: {this.props.physics}
+                Physics: {this.props.state.physics}
                 <hr></hr>
-                Chemistry: {this.props.chem}
+                Chemistry: {this.props.state.chem}
                 <hr></hr>
-                Total Score: {this.props.maths+this.props.physics+this.props}
+                Total Score: {this.props.state.maths+this.props.state.physics+this.props.state.chem}
             </div>
         )
     }

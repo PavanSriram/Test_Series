@@ -1,4 +1,5 @@
 import React, { Component } from "react";
+import { Link } from "react-router-dom";
 import "./Footer.css";
 import "./bootstrap.css";
 
@@ -27,7 +28,7 @@ class Footer extends Component {
           Save & Next
         </button>
 
-        <button onClick={this.props.onFinish} type="button" className="btn btn-secondary" id="btn5" disabled>Finish</button>
+        <Link onClick={this.props.onFinish} role="button" type="submit" className={`btn btn-secondary ${this.props.min > 30 ? "disabled" : ""}`} to="/options/exam/result" id="btn5">Finish</Link>
       </div>
     );
   }
